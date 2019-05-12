@@ -1,8 +1,8 @@
 <?php
 
 define( 'MYSQL_HOST', 'localhost' );
-define( 'MYSQL_USER', 'andre' );
-define( 'MYSQL_PASSWORD', '0andre0' );
+define( 'MYSQL_USER', 'user' );
+define( 'MYSQL_PASSWORD', 'pass' );
 define( 'MYSQL_DB_NAME', 'vista' );
 
 define('URL', 'http://' . $_SERVER['HTTP_HOST']);
