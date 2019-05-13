@@ -3,7 +3,7 @@
 Framework simples em PHP, com CRUD de cidades e bairros e consulta em API de testes do Vista.
 
 ### Instalação: ###
-* `git clone https://github.com/ndrvieira/projeto_vista.git nomedoprojeto`
+* `git clone https://github.com/ndrvieira/vista.git nomedoprojeto`
 * `cd nomedoprojeto`
 * `configurar config.php na raiz do projeto`
 
