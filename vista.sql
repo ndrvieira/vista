@@ -1,11 +1,11 @@
-﻿-- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump
 -- version 4.6.6deb5
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Tempo de geração: 12/05/2019 às 20:57
+-- Tempo de geração: 13/05/2019 às 12:17
 -- Versão do servidor: 5.7.26-0ubuntu0.18.04.1
--- Versão do PHP: 7.2.17-0ubuntu0.18.04.1
+-- Versão do PHP: 7.2.18-1+ubuntu18.04.1+deb.sury.org+1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -60,6 +60,20 @@ ALTER TABLE `bairros`
 ALTER TABLE `cidades`
   ADD PRIMARY KEY (`id`);
 
+--
+-- AUTO_INCREMENT de tabelas apagadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `bairros`
+--
+ALTER TABLE `bairros`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT de tabela `cidades`
+--
+ALTER TABLE `cidades`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- Restrições para dumps de tabelas
 --
