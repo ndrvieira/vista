@@ -61,20 +61,6 @@ ALTER TABLE `cidades`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT de tabelas apagadas
---
-
---
--- AUTO_INCREMENT de tabela `bairros`
---
-ALTER TABLE `bairros`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
---
--- AUTO_INCREMENT de tabela `cidades`
---
-ALTER TABLE `cidades`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
---
 -- Restrições para dumps de tabelas
 --
 
